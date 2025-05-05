@@ -1,0 +1,4 @@
+  - User Option Bytes requirement (with STM32CubeProgrammer tool)
+    - TZEN=B4                            System with TrustZone-M enabled
+    - SECWM1_STRT=0x0  SECWM1_END=0x7F    All 128 pages of internal Flash Bank1 set as secure
+    - SECWM2_STRT=0x1  SECWM2_END=0x0     No page of internal Flash Bank2 set as secure, hence Bank2 non-secure
